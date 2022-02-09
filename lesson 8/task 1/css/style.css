@@ -1,0 +1,127 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*::before,
+*::after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+ul,
+li {
+  list-style: none;
+}
+@font-face {
+  font-family: Raleway;
+  src: url(../fonts/Raleway/Raleway-Medium.ttf);
+}
+@font-face {
+  font-family: OpenSans;
+  src: url(../fonts/OpenSans/OpenSans/OpenSans-Medium.ttf);
+}
+.page {
+  width: 100%;
+  background-color: #e5e5e5;
+}
+.main {
+  max-width: 1170px;
+  margin: 0 auto;
+  background: #e5e5e5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.main__title {
+  font-family: "Raleway", sans-serif;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 57px 0px;
+  position: relative;
+  margin: 50px 0px 40px 0px;
+}
+.main__title::after {
+  content: "";
+  background-color: #ec7979;
+  width: 170px;
+  top: 150px;
+  position: absolute;
+  height: 1px;
+  right: 500px;
+}
+.main__subtitle {
+  font-family: "Raleway";
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #86878b;
+}
+.main__form {
+  display: flex;
+  justify-content: center;
+  font-family: "OpenSans";
+  font-size: 14px;
+  line-height: 19px;
+  text-align: start;
+  padding-top: 90px;
+}
+.form__input,
+.form__textarea {
+  width: 50%;
+  background: #e5e5e5;
+}
+.main__form input,
+.main__form textarea {
+  width: 100%;
+  background: #e5e5e5;
+  border-bottom: 1px solid #bdbdbd;
+  outline: none;
+}
+.form__textarea {
+  padding-left: 30px;
+}
+.main__form input {
+  padding-bottom: 15px;
+}
+.input__item {
+  padding-bottom: 50px;
+}
+.main__button {
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+.main__button button {
+  background-color: #ec7979;
+  color: #ffffff;
+  padding: 20px 0px;
+  width: 370px;
+}
+.main__button a {
+  font-size: 18px;
+  line-height: 25px;
+  font-family: "OpenSans";
+  color: #ffffff;
+  text-decoration: none;
+}
