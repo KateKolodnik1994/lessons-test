@@ -34,7 +34,6 @@ body {
 }
 .page {
   width: 100%;
-  margin: 0 auto;
 }
 .block-header {
   background: black;
@@ -47,7 +46,7 @@ body {
   min-height: 75px;
   justify-content: space-between;
   align-items: center;
-  margin: 0px 170px 0px 115px;
+  margin: 0 auto;
 }
 
 .header__menu {
@@ -73,7 +72,7 @@ body {
 .banner {
   width: 100%;
   display: flex;
-  margin: 0px 170px;
+  margin: 0px auto;
   max-width: 1170px;
 }
 .banner__block {
@@ -172,20 +171,24 @@ body {
   font-family: "OpenSans", sans-serif;
   border-radius: 10px;
 }
+.block-footer {
+  background-color: #f8efef;
+  width: 100%;
+}
 .footer {
   display: flex;
   flex-direction: row;
-  width: 100%;
   background-color: #f8efef;
+  margin: 0 auto;
+  max-width: 1170px;
 }
-.footer_text {
+.footer__text {
   display: flex;
   flex-direction: column;
-  margin-left: 170px;
   max-width: 470px;
   flex: 0 1 40%;
 }
-.footer_name {
+.footer__name {
   font-family: "OpenSans", sans-serif;
   font-weight: 700;
   font-size: 24px;
@@ -193,7 +196,7 @@ body {
   padding-bottom: 18px;
   margin-bottom: 18px;
 }
-.footer_subname {
+.footer__subname {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-size: 18px;
@@ -206,7 +209,8 @@ body {
   flex-direction: row;
   flex: 0 1 60%;
   justify-content: space-between;
-  margin: 43px 180px 43px 50px;
+  margin: 43px 0px 43px 50px;
+  max-width: 670px;
 }
 .footer__icon {
   color: #cccccc;
@@ -219,7 +223,7 @@ body {
 .content {
   width: 100%;
   max-width: 1170px;
-  margin: 0px 170px;
+  margin: 0px auto;
   display: flex;
   flex-direction: column;
   align-items: center;
