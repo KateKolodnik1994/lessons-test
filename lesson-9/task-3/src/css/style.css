@@ -1,0 +1,225 @@
+
+
+.main {
+  margin: 0 auto;
+  overflow: hidden;
+  width: 100%;
+  background: url(../img/banner1.svg), url(../img/banner2.svg);
+}
+.banner {
+  width: 100%;
+  display: flex;
+  margin: 0px auto;
+  max-width: 1170px;
+}
+.banner__block {
+  margin-right: 30px;
+}
+.banner__logo {
+  margin-top: 210px;
+}
+.banner__title {
+  margin-top: 50px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 48px;
+  color: #ffffff;
+  max-width: 670px;
+}
+.banner__subtitle {
+  margin-top: 100px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #ffffff;
+  line-height: 21px;
+}
+.banner__button {
+  margin-top: 45px;
+  font-family: "OpenSans", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  border: 2px solid #ffffff;
+  box-sizing: border-box;
+  width: 270px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: none;
+  margin-bottom: 185px;
+}
+.banner__button a,
+.banner__button button {
+  border: none;
+  background: none;
+  text-decoration: none;
+  color: #ffffff;
+  text-align: none;
+}
+.banner__form {
+  margin: 208px 0px 293px 0px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  min-width: 470px;
+  align-items: center;
+}
+.form__text {
+  text-align: center;
+  font-size: 24px;
+  line-height: 33px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  font-weight: 700;
+  font-family: "OpenSans", sans-serif;
+  margin-bottom: 45px;
+}
+.form__text span {
+  color: red;
+}
+
+.form__input input {
+  border: none;
+  border-bottom: 1px solid #bdbdbd;
+  width: 370px;
+  padding-bottom: 15px;
+  font-family: "OpenSans", sans-serif;
+  font-size: 15px;
+}
+
+.form__input {
+  margin-bottom: 33px;
+}
+.form__button {
+  margin-top: 45px;
+  padding-top: 25px;
+  padding-bottom: 28px;
+  width: 100%;
+  text-align: center;
+  background-color: #ec7979;
+  border-radius: 0px 0px 10px 10px;
+}
+.form__button button {
+  background: none;
+  border: none;
+  color: #ffffff;
+  font-size: 15px;
+  font-family: "OpenSans", sans-serif;
+  border-radius: 10px;
+}
+.block-footer {
+  background-color: #f8efef;
+  width: 100%;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  background-color: #f8efef;
+  margin: 0 auto;
+  max-width: 1170px;
+}
+.footer__text {
+  display: flex;
+  flex-direction: column;
+  max-width: 470px;
+  flex: 0 1 40%;
+}
+.footer__name {
+  font-family: "OpenSans", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  margin-bottom: 18px;
+}
+.footer__subname {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #86878b;
+  margin-bottom: 20px;
+  width: 470px;
+}
+.footer__media {
+  display: flex;
+  flex-direction: row;
+  flex: 0 1 60%;
+  justify-content: space-between;
+  margin: 43px 0px 43px 50px;
+  max-width: 670px;
+}
+.footer__icon {
+  color: #cccccc;
+  font-size: 50px;
+}
+.add {
+  width: 100%;
+  background: url(../img/bg_1.svg), url(../img/bg_2.svg);
+}
+.content {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content__title {
+  margin-top: 50px;
+  padding-top: 57px;
+  padding-bottom: 57px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  color: #ffffff;
+}
+.content__subtitle {
+  margin-top: 40px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #ffffff;
+}
+.content__button {
+  margin-top: 73px;
+}
+.content__button button {
+  font-family: "OpenSans", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #ffffff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 2px solid #ffffff;
+  box-sizing: border-box;
+  background: none;
+  margin-bottom: 50px;
+  width: 370px;
+}
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 992px) {
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 576px) {
+  .menu__list {
+    display: none;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+  .footer__icon {
+    color: #cccccc;
+    height: 26px;
+  }
+}
