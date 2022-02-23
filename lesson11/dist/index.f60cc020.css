@@ -124,6 +124,7 @@ body {
   display: flex;
   margin: 0 auto;
   font-family: "TTNorms", sans-serif;
+  margin-top: 50px;
 }
 .h1 {
   text-align: center;
@@ -141,8 +142,8 @@ body {
   position: absolute;
   content: "";
   width: 60px;
-  background-color: black;
-  color: black;
+  background-color: #a1c4fd;
+  color: #a1c4fd;
   top: 50px;
   left: 525px;
 }
