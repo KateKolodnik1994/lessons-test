@@ -123,7 +123,8 @@ body {
   background-color: rgba(161, 196, 253, 1);
   color: rgba(161, 196, 253, 1);
   top: 50px;
-  left: 525px;
+  left: 50%;
+  margin-left: -30px;
 }
 .aside {
   min-width: 255px;
@@ -188,7 +189,6 @@ body {
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
   row-gap: 28px;
   column-gap: 28px;
 }
@@ -265,7 +265,7 @@ body {
   max-width: 1110px;
   display: grid;
   grid-template-columns: 60% 20% 20%;
-  grid-template-rows: 1fr auto;
+
   margin: 0 auto;
   margin-top: 50px;
   background-color: #e5e5e5;
@@ -319,4 +319,39 @@ body {
   font-size: 12px;
   line-height: 14px;
   margin-bottom: 30px;
+}
+@media (max-width: 576px) {
+  .list {
+    display: none;
+  }
+  .header {
+    display: flex;
+    margin: 0 auto;
+    position: relative;
+    &__logo {
+      justify-self: center;
+      &__logo::after {
+        content: "";
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        background: url(../img/menu2.svg);
+      }
+    }
+    &__login,
+    &__list_left {
+      display: none;
+    }
+  }
+  .gridcontainer {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 28px;
+    column-gap: 28px;
+  }
+  .wrapper__menu,
+  .main__aside {
+    display: none;
+  }
 }
