@@ -1,0 +1,148 @@
+*,
+*::after,
+::before {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+html,
+body {
+  height: 100%;
+  line-height: 1;
+}
+@font-face {
+  font-family: Raleway;
+  src: url("Raleway-Regular.1287737d.ttf");
+}
+@font-face {
+  font-family: OpenSans;
+  src: url("OpenSans-Regular.6048dd7d.ttf");
+}
+.page {
+  width: 100%;
+}
+.block-footer {
+  background-color: #f8efef;
+  width: 100%;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  background-color: #f8efef;
+  margin: 0 auto;
+  max-width: 1170px;
+}
+.footer__text {
+  display: flex;
+  flex-direction: column;
+  max-width: 470px;
+  flex: 0 1 40%;
+}
+.footer__name {
+  font-family: "OpenSans", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  margin-bottom: 18px;
+}
+.footer__subname {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #86878b;
+  margin-bottom: 20px;
+  width: 470px;
+}
+.footer__media {
+  display: flex;
+  flex-direction: row;
+  flex: 0 1 60%;
+  justify-content: space-between;
+  margin: 43px 0px 43px 50px;
+  max-width: 670px;
+}
+.footer__icon {
+  color: #cccccc;
+  font-size: 50px;
+}
+.add {
+  width: 100%;
+  background: url("bg_1.6ad8605c.svg"), url("bg_2.af5898c7.svg");
+  background-size: cover;
+}
+.content {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content__title {
+  margin-top: 50px;
+  padding-top: 57px;
+  padding-bottom: 57px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  color: #ffffff;
+}
+.content__subtitle {
+  margin-top: 40px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #ffffff;
+}
+.content__button {
+  margin-top: 73px;
+}
+.content__button button {
+  font-family: "OpenSans", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #ffffff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 2px solid #ffffff;
+  box-sizing: border-box;
+  background: none;
+  margin-bottom: 50px;
+  width: 370px;
+}
+@media (max-width: 576px) {
+  .menu__list {
+    display: none;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer__icon {
+    color: #cccccc;
+    height: 26px;
+  }
+}
