@@ -1,6 +1,5 @@
 # dependencies
 /node_modules
 parcel-cache
-log/
-log/logs.txt
+log
 /cache
