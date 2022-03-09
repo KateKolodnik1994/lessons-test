@@ -12,14 +12,6 @@ const DAYS_IN_YEAR = 365;
 const HOURS_IN_DAY = 24;
 const MINUTES_IN_HOUR = 60;
 const SECONDS_IN_MINUTE = 60;
-let days = age * DAYS_IN_YEAR;
-let hours = days * HOURS_IN_DAY;
-let minutes = hours * MINUTES_IN_HOUR;
-let seconds = minutes * SECONDS_IN_MINUTE;
-console.log (days);
-console.log (hours);
-console.log (minutes);
-console.log (seconds);
 let myAgeInSeconds = age * DAYS_IN_YEAR * HOURS_IN_DAY * MINUTES_IN_HOUR * SECONDS_IN_MINUTE;
 console.log (myAgeInSeconds);
 
