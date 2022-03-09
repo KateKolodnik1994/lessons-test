@@ -3,21 +3,24 @@
 let x = 20;
 let y = 58;
 let z = 42;
-let summ = x + y + z;
-console.log (summ);
+let sum = x + y + z;
+console.log (sum);
 
 //task 2
-let year = prompt ('Введи колличество лет');
-let days = year * 365;
-let hours = days * 24;
-let minutes = hours * 60;
-let seconds = minutes * 60;
+let age = prompt ('Введите количество лет:');
+const DAYS_IN_YEAR = 365; 
+const HOURS_IN_DAY = 24;
+const MINUTES_IN_HOUR = 60;
+const SECONDS_IN_MINUTE = 60;
+let days = age * DAYS_IN_YEAR;
+let hours = days * HOURS_IN_DAY;
+let minutes = hours * MINUTES_IN_HOUR;
+let seconds = minutes * SECONDS_IN_MINUTE;
 console.log (days);
 console.log (hours);
 console.log (minutes);
 console.log (seconds);
-let myAge = prompt ('Сколько мне лет');
-let myAgeInSeconds = myAge * 365 * 24 * 60 * 60;
+let myAgeInSeconds = age * DAYS_IN_YEAR * HOURS_IN_DAY * MINUTES_IN_HOUR * SECONDS_IN_MINUTE;
 console.log (myAgeInSeconds);
 
 //task 3
@@ -35,8 +38,8 @@ console.log (typeof count);
 //task 4
 let a = 1;
 let b = 2;
-b = String (b);
-a = String (a);
+b = String(b);
+a = String(a);
 let c = "белых медведей";
 let d = a + b + ' ' + c;
 console.log (d);
@@ -46,18 +49,8 @@ let w2 = "морпех";
 let w3 = "наледь";
 let w4 = "попрек";
 let w5 = "рубило";
-let l1 = w1.length;
-let l2 = w2.length;
-let l3 = w3.length;
-let l4 = w4.length;
-let l5 = w5.length;
-let lengthWords = l1 + l2 + l3 + l4 + l5;
-console.log (l1);
-console.log (l2);
-console.log (l3);
-console.log (l4);
-console.log (l5);
-console.log (lengthWords);
+const wordsLength = (w1 + w2 + w3 + w4 + w5).length;
+console.log (wordsLength);
 
 //task 6
 let n = 15;
@@ -72,7 +65,7 @@ console.log (`Variable: bl = ${bl} have type: ${type3}`);
 
 //task 7
 let name = prompt ('Введите имя');
-let age = prompt ('Введите возраст');
+let yourAge = prompt ('Введите возраст');
 
 //task 1 advanced
 let p = 4;
